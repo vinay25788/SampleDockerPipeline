@@ -1,5 +1,5 @@
 FROM openjdk:8
 
-ADD /build/libs/DataStrucutreAndAlgorithims-1.0-SNAPSHOT.jar /
+ADD /build/libs/SampleDockerPipeline-1.0-SNAPSHOT.jar /
 
-ENTRYPOINT ["/DataStrucutreAndAlgorithims/bin/"]
+ENTRYPOINT ["/SampleDockerPipeline/bin/"]
